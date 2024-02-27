@@ -1,0 +1,50 @@
+10:16:34.114 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+10:16:41.993 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+10:18:17.653 [main] INFO  org.testng.annotations.Test - ************TEST CASE 9 SUCESSESFULLY EXECUTED***********
+10:19:15.147 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+10:19:35.185 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+10:20:50.605 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+10:21:02.389 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+10:21:40.810 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+10:21:50.755 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+10:22:45.663 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+10:22:56.890 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+10:25:32.888 [main] INFO  org.testng.annotations.Test - ************TEST CASE 9 SUCESSESFULLY EXECUTED***********
+10:35:47.906 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+10:36:10.999 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+10:37:44.376 [main] INFO  org.testng.annotations.Test - ************TEST CASE 9 SUCESSESFULLY EXECUTED***********
+12:24:59.313 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+12:25:21.683 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+12:25:22.024 [main] INFO  org.testng.annotations.Test - **********TEST CASE 6 STARTED**********
+12:25:25.283 [main] INFO  org.testng.annotations.Test - ************TEST CASE 6 SUCESSESFULLY EXECUTED***********
+12:25:25.343 [main] INFO  org.testng.annotations.Test - **********TEST CASE 7 STARTED**********
+12:34:21.937 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+12:34:46.244 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+12:35:20.596 [main] INFO  org.testng.annotations.Test - **********TEST CASE 6 STARTED**********
+12:35:20.683 [main] INFO  org.testng.annotations.Test - ************TEST CASE 6 SUCESSESFULLY EXECUTED***********
+12:35:20.720 [main] INFO  org.testng.annotations.Test - **********TEST CASE 7 STARTED**********
+12:36:55.336 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+12:37:14.755 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+12:37:15.115 [main] INFO  org.testng.annotations.Test - **********TEST CASE 6 STARTED**********
+12:37:25.064 [main] INFO  org.testng.annotations.Test - ************TEST CASE 6 SUCESSESFULLY EXECUTED***********
+12:37:25.088 [main] INFO  org.testng.annotations.Test - **********TEST CASE 7 STARTED**********
+12:37:32.392 [main] INFO  org.testng.annotations.Test - ************TEST CASE 7 SUCESSESFULLY EXECUTED***********
+12:40:01.160 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+12:40:23.186 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+12:40:56.047 [main] INFO  org.testng.annotations.Test - **********TEST CASE 6 STARTED**********
+12:40:56.086 [main] INFO  org.testng.annotations.Test - ************TEST CASE 6 SUCESSESFULLY EXECUTED***********
+12:40:56.117 [main] INFO  org.testng.annotations.Test - **********TEST CASE 7 STARTED**********
+12:41:03.881 [main] INFO  org.testng.annotations.Test - ************TEST CASE 7 SUCESSESFULLY EXECUTED***********
+13:59:30.446 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+13:59:41.345 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+14:00:14.694 [main] INFO  org.testng.annotations.Test - **********TEST CASE 6 STARTED**********
+14:00:14.803 [main] INFO  org.testng.annotations.Test - ************TEST CASE 6 SUCESSESFULLY EXECUTED***********
+14:00:14.824 [main] INFO  org.testng.annotations.Test - **********TEST CASE 7 STARTED**********
+14:00:30.925 [main] INFO  org.testng.annotations.Test - ************TEST CASE 7 SUCESSESFULLY EXECUTED***********
+14:02:00.003 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+14:02:11.659 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+14:02:14.847 [main] INFO  org.testng.annotations.Test - **********TEST CASE 6 STARTED**********
+14:02:14.900 [main] INFO  org.testng.annotations.Test - ************TEST CASE 6 SUCESSESFULLY EXECUTED***********
+14:02:14.923 [main] INFO  org.testng.annotations.Test - **********TEST CASE 7 STARTED**********
+14:02:20.621 [main] INFO  org.testng.annotations.Test - ************TEST CASE 7 SUCESSESFULLY EXECUTED***********
+14:08:59.161 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********

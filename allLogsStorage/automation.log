@@ -1,0 +1,9 @@
+00:03:38.356 [main] INFO  org.testng.annotations.Test - ************TEST CASE 1 SUCESSESFULLY EXECUTED***********
+00:03:39.048 [main] INFO  org.testng.annotations.Test - **********TEST CASE 2 STARTED**********
+00:03:43.849 [main] INFO  org.testng.annotations.Test - ************TEST CASE 2 SUCESSESFULLY EXECUTED***********
+00:03:44.311 [main] INFO  org.testng.annotations.Test - **********TEST CASE 3 STARTED**********
+00:03:50.526 [main] INFO  org.testng.annotations.Test - ************TEST CASE 3 SUCESSESFULLY EXECUTED***********
+00:03:50.913 [main] INFO  org.testng.annotations.Test - **********TEST CASE 4 STARTED**********
+00:03:50.943 [main] INFO  org.testng.annotations.Test - ************TEST CASE 4 SUCESSESFULLY EXECUTED***********
+00:03:51.305 [main] INFO  org.testng.annotations.Test - **********TEST CASE 5  STARTED**********
+00:04:13.558 [main] INFO  org.testng.annotations.Test - ************TEST CASE 5 SUCESSESFULLY EXECUTED***********

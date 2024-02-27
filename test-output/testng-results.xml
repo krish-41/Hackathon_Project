@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T00:03:20 IST" name="Suite" finished-at="2024-02-28T00:04:13 IST" duration-ms="53686">
+    <groups>
+      <group name="regression">
+        <method signature="TC__01_HomePage.searchDesiredoptionlocation()[pri:2, instance:TestCases.TC__01_HomePage@3857f613]" name="searchDesiredoptionlocation" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.searchDesiredoptionspeciality()[pri:3, instance:TestCases.TC__01_HomePage@3857f613]" name="searchDesiredoptionspeciality" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.checkDetails()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" name="checkDetails" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.AllFilters()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" name="AllFilters" class="TestCases.TC__01_HomePage"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC__01_HomePage.validHomepage()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" name="validHomepage" class="TestCases.TC__01_HomePage"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC__01_HomePage.validHomepage()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" name="validHomepage" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.searchDesiredoptionlocation()[pri:2, instance:TestCases.TC__01_HomePage@3857f613]" name="searchDesiredoptionlocation" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.searchDesiredoptionspeciality()[pri:3, instance:TestCases.TC__01_HomePage@3857f613]" name="searchDesiredoptionspeciality" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.checkDetails()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" name="checkDetails" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.AllFilters()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" name="AllFilters" class="TestCases.TC__01_HomePage"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-02-28T00:03:20 IST" name="ChromeTest" finished-at="2024-02-28T00:04:13 IST" duration-ms="53686">
+      <class name="TestCases.TC__01_HomePage">
+        <test-method is-config="true" signature="driversetup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" started-at="2024-02-28T00:03:21 IST" name="driversetup" finished-at="2024-02-28T00:03:38 IST" duration-ms="17257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="validHomepage()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" started-at="2024-02-28T00:03:38 IST" name="validHomepage" finished-at="2024-02-28T00:03:38 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validHomepage -->
+        <test-method signature="searchDesiredoptionlocation()[pri:2, instance:TestCases.TC__01_HomePage@3857f613]" started-at="2024-02-28T00:03:38 IST" name="searchDesiredoptionlocation" finished-at="2024-02-28T00:03:43 IST" duration-ms="4860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDesiredoptionlocation -->
+        <test-method signature="searchDesiredoptionspeciality()[pri:3, instance:TestCases.TC__01_HomePage@3857f613]" started-at="2024-02-28T00:03:44 IST" name="searchDesiredoptionspeciality" finished-at="2024-02-28T00:03:50 IST" duration-ms="6220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDesiredoptionspeciality -->
+        <test-method signature="checkDetails()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" started-at="2024-02-28T00:03:50 IST" name="checkDetails" finished-at="2024-02-28T00:03:50 IST" depends-on-methods="TestCases.TC__01_HomePage.searchDesiredoptionspeciality" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDetails -->
+        <test-method signature="AllFilters()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" started-at="2024-02-28T00:03:51 IST" name="AllFilters" finished-at="2024-02-28T00:04:13 IST" depends-on-methods="TestCases.TC__01_HomePage.checkDetails" duration-ms="22256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllFilters -->
+      </class> <!-- TestCases.TC__01_HomePage -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
