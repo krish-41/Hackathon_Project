@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\2303747\eclipse-workspace\HakathonProject\grouping.xml</span>
+                    <span>C:\Users\2303747\eclipse-workspace\HakathonProject\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,46 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">13 methods, 6 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC__03_HealthandWellnessPage" class="method navigator-link" hash-for-method="click">click</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC__03_HealthandWellnessPage" class="method navigator-link" hash-for-method="clickAgainWithDataProvider(Krish, CTS, 9.876768948E9, krishna.chaudhari)">clickAgainWithDataProvider(Krish, CTS, 9.876768948E9, krishna.chaudhari)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC__03_HealthandWellnessPage" class="method navigator-link" hash-for-method="clickAgainWithExcelData">clickAgainWithExcelData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC__03_HealthandWellnessPage" class="method navigator-link" hash-for-method="clickOnceAgain">clickOnceAgain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC__01_HomePage" class="method navigator-link" hash-for-method="validHomepage">validHomepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC__03_HealthandWellnessPage" class="method navigator-link" hash-for-method="validate_Thankyou">validate_Thankyou</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +143,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestCases.TC__01_HomePage" class="method navigator-link" hash-for-method="AllFilters">AllFilters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC__01_HomePage" class="method navigator-link" hash-for-method="Doctorname">Doctorname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC__02_SurgeryPage" class="method navigator-link" hash-for-method="SurgeriesList">SurgeriesList</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -123,7 +172,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestCases.TC__01_HomePage" class="method navigator-link" hash-for-method="validHomepage">validHomepage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TC__02_SurgeryPage" class="method navigator-link" hash-for-method="validation">validation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -138,6 +187,210 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.TC__01_HomePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validHomepage">
+                  </a> <!-- validHomepage -->
+                  <span class="method-name">validHomepage</span>
+                  <div class="stack-trace">java.lang.AssertionError: Title didn&apos;t match expected [Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests] but found []
+	at TestCases.TC__01_HomePage.validHomepage(TC__01_HomePage.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.TC__03_HealthandWellnessPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="click">
+                  </a> <!-- click -->
+                  <span class="method-name">click</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;nav-interact&apos;]&quot;}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=xpath, value=//span[@class=&apos;nav-interact&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+	at PageObjectClass.HealthandWellnessPage.click(HealthandWellnessPage.java:53)
+	at TestCases.TC__03_HealthandWellnessPage.click(TC__03_HealthandWellnessPage.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAgainWithDataProvider(Krish, CTS, 9.876768948E9, krishna.chaudhari)">
+                  </a> <!-- clickAgainWithDataProvider(Krish, CTS, 9.876768948E9, krishna.chaudhari) -->
+                  <span class="method-name">clickAgainWithDataProvider</span>
+                  <span class="parameters">(Krish,CTS,9.876768948E9,krishna.chaudhari)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#name&quot;}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=id, value=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+	at PageObjectClass.HealthandWellnessPage.ClickOnHealthwithInvalidData(HealthandWellnessPage.java:100)
+	at TestCases.TC__03_HealthandWellnessPage.clickAgainWithDataProvider(TC__03_HealthandWellnessPage.java:35)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAgainWithExcelData">
+                  </a> <!-- clickAgainWithExcelData -->
+                  <span class="method-name">clickAgainWithExcelData</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#name&quot;}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=id, value=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+	at PageObjectClass.HealthandWellnessPage.ClickOnHealthwithInvalidData(HealthandWellnessPage.java:61)
+	at TestCases.TC__03_HealthandWellnessPage.clickAgainWithExcelData(TC__03_HealthandWellnessPage.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnceAgain">
+                  </a> <!-- clickOnceAgain -->
+                  <span class="method-name">clickOnceAgain</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#name&quot;}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=id, value=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+	at PageObjectClass.HealthandWellnessPage.ClickOnHealthwithValidData(HealthandWellnessPage.java:82)
+	at TestCases.TC__03_HealthandWellnessPage.clickOnceAgain(TC__03_HealthandWellnessPage.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_Thankyou">
+                  </a> <!-- validate_Thankyou -->
+                  <span class="method-name">validate_Thankyou</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;u-text--bold text-alpha&apos;])[1]&quot;}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=xpath, value=(//div[@class=&apos;u-text--bold text-alpha&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source)
+	at PageObjectClass.HealthandWellnessPage.validate(HealthandWellnessPage.java:119)
+	at TestCases.TC__03_HealthandWellnessPage.validate_Thankyou(TC__03_HealthandWellnessPage.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -149,6 +402,13 @@
                   <a name="AllFilters">
                   </a> <!-- AllFilters -->
                   <span class="method-name">AllFilters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Doctorname">
+                  </a> <!-- Doctorname -->
+                  <span class="method-name">Doctorname</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -172,11 +432,26 @@
                   <span class="method-name">searchDesiredoptionspeciality</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TC__02_SurgeryPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validHomepage">
-                  </a> <!-- validHomepage -->
-                  <span class="method-name">validHomepage</span>
+                  <a name="SurgeriesList">
+                  </a> <!-- SurgeriesList -->
+                  <span class="method-name">SurgeriesList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validation">
+                  </a> <!-- validation -->
+                  <span class="method-name">validation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,27 +459,13 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\2303747\eclipse-workspace\HakathonProject\grouping.xml</span>
+            <span class="header-content">C:\Users\2303747\eclipse-workspace\HakathonProject\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;sanity&quot;/&gt;
-      &lt;include name=&quot;regression&quot;/&gt;
-      &lt;include name=&quot;master&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
-  &lt;groups&gt;
-    &lt;run&gt;
-      &lt;include name=&quot;sanity&quot;/&gt;
-      &lt;include name=&quot;regression&quot;/&gt;
-      &lt;include name=&quot;master&quot;/&gt;
-    &lt;/run&gt;
-  &lt;/groups&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;UtilitiesAll.Extent_Reports&quot;/&gt;
   &lt;/listeners&gt;
@@ -246,7 +507,27 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
+                <span class="method-in-group-name">Doctorname</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SurgeriesList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">checkDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">click</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickAgainWithExcelData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickOnceAgain</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -259,6 +540,14 @@
               </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">validHomepage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_Thankyou</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validation</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -270,7 +559,23 @@
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
+                <span class="method-in-group-name">Doctorname</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">checkDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">click</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickAgainWithExcelData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickOnceAgain</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -281,12 +586,28 @@
                 <span class="method-in-group-name">searchDesiredoptionspeciality</span>
                 <br/>
               </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validate_Thankyou</span>
+                <br/>
+              </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
               <span class="test-group-name">sanity</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">SurgeriesList</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">click</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">validHomepage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validation</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -306,32 +627,64 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AllFilters')
+data.setCell(0, 1, 'Doctorname')
 data.setCell(0, 2, 'TestCases.TC__01_HomePage')
-data.setCell(0, 3, 22256);
+data.setCell(0, 3, 71071);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'searchDesiredoptionspeciality')
-data.setCell(1, 2, 'TestCases.TC__01_HomePage')
-data.setCell(1, 3, 6220);
+data.setCell(1, 1, 'clickAgainWithDataProvider')
+data.setCell(1, 2, 'TestCases.TC__03_HealthandWellnessPage')
+data.setCell(1, 3, 34131);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'searchDesiredoptionlocation')
+data.setCell(2, 1, 'AllFilters')
 data.setCell(2, 2, 'TestCases.TC__01_HomePage')
-data.setCell(2, 3, 4860);
+data.setCell(2, 3, 29357);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validHomepage')
-data.setCell(3, 2, 'TestCases.TC__01_HomePage')
-data.setCell(3, 3, 67);
+data.setCell(3, 1, 'validation')
+data.setCell(3, 2, 'TestCases.TC__02_SurgeryPage')
+data.setCell(3, 3, 25202);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'checkDetails')
+data.setCell(4, 1, 'searchDesiredoptionlocation')
 data.setCell(4, 2, 'TestCases.TC__01_HomePage')
-data.setCell(4, 3, 32);
+data.setCell(4, 3, 22451);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchDesiredoptionspeciality')
+data.setCell(5, 2, 'TestCases.TC__01_HomePage')
+data.setCell(5, 3, 22225);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickOnceAgain')
+data.setCell(6, 2, 'TestCases.TC__03_HealthandWellnessPage')
+data.setCell(6, 3, 10163);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickAgainWithExcelData')
+data.setCell(7, 2, 'TestCases.TC__03_HealthandWellnessPage')
+data.setCell(7, 3, 10158);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'click')
+data.setCell(8, 2, 'TestCases.TC__03_HealthandWellnessPage')
+data.setCell(8, 3, 10127);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validate_Thankyou')
+data.setCell(9, 2, 'TestCases.TC__03_HealthandWellnessPage')
+data.setCell(9, 3, 10053);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SurgeriesList')
+data.setCell(10, 2, 'TestCases.TC__02_SurgeryPage')
+data.setCell(10, 3, 5866);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validHomepage')
+data.setCell(11, 2, 'TestCases.TC__01_HomePage')
+data.setCell(11, 3, 193);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkDetails')
+data.setCell(12, 2, 'TestCases.TC__01_HomePage')
+data.setCell(12, 3, 117);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -346,40 +699,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">8 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">TestCases.TC__02_SurgeryPage</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">SurgeriesList</span>
-                <br/>
-                <span class="ignored-method-name">validation</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">TestCases.TC__01_HomePage</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">Doctorname</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">TestCases.TC__03_HealthandWellnessPage</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">validate_Thankyou</span>
-                <br/>
-                <span class="ignored-method-name">clickAgainWithExcelData</span>
-                <br/>
-                <span class="ignored-method-name">click</span>
-                <br/>
-                <span class="ignored-method-name">clickAgainWithDataProvider</span>
-                <br/>
-                <span class="ignored-method-name">clickOnceAgain</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -394,25 +716,95 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">validHomepage</span>
-                <span class="method-start">17287 ms</span>
+                <span class="method-start">16262 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchDesiredoptionlocation</span>
-                <span class="method-start">17967 ms</span>
+                <span class="method-start">17005 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchDesiredoptionspeciality</span>
-                <span class="method-start">23285 ms</span>
+                <span class="method-start">40154 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkDetails</span>
-                <span class="method-start">29889 ms</span>
+                <span class="method-start">62906 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">AllFilters</span>
-                <span class="method-start">30280 ms</span>
+                <span class="method-start">63394 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Doctorname</span>
+                <span class="method-start">93040 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">164491 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC__02_SurgeryPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driversetup(windows, chrome)</span>
+                <span class="method-start">165816 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">validation</span>
+                <span class="method-start">181370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SurgeriesList</span>
+                <span class="method-start">207507 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">214049 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TC__03_HealthandWellnessPage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">driversetup(windows, chrome)</span>
+                <span class="method-start">216386 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">click</span>
+                <span class="method-start">258290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickAgainWithDataProvider(Krish, CTS, 9.876768948E9, krishna.chaudhari)</span>
+                <span class="method-start">269285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickAgainWithExcelData</span>
+                <span class="method-start">303818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickOnceAgain</span>
+                <span class="method-start">314380 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validate_Thankyou</span>
+                <span class="method-start">324805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">335127 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

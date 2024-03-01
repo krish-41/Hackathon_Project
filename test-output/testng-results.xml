@@ -1,29 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="7" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-28T00:03:20 IST" name="Suite" finished-at="2024-02-28T00:04:13 IST" duration-ms="53686">
+  <suite started-at="2024-02-28T16:52:12 IST" name="Suite" finished-at="2024-02-28T16:57:51 IST" duration-ms="338371">
     <groups>
       <group name="regression">
-        <method signature="TC__01_HomePage.searchDesiredoptionlocation()[pri:2, instance:TestCases.TC__01_HomePage@3857f613]" name="searchDesiredoptionlocation" class="TestCases.TC__01_HomePage"/>
-        <method signature="TC__01_HomePage.searchDesiredoptionspeciality()[pri:3, instance:TestCases.TC__01_HomePage@3857f613]" name="searchDesiredoptionspeciality" class="TestCases.TC__01_HomePage"/>
-        <method signature="TC__01_HomePage.checkDetails()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" name="checkDetails" class="TestCases.TC__01_HomePage"/>
-        <method signature="TC__01_HomePage.AllFilters()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" name="AllFilters" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__03_HealthandWellnessPage.click()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" name="click" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__03_HealthandWellnessPage.clickAgainWithExcelData()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" name="clickAgainWithExcelData" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__03_HealthandWellnessPage.clickOnceAgain()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" name="clickOnceAgain" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__03_HealthandWellnessPage.validate_Thankyou()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" name="validate_Thankyou" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__01_HomePage.searchDesiredoptionlocation()[pri:2, instance:TestCases.TC__01_HomePage@3b0090a4]" name="searchDesiredoptionlocation" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.searchDesiredoptionspeciality()[pri:3, instance:TestCases.TC__01_HomePage@3b0090a4]" name="searchDesiredoptionspeciality" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.checkDetails()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" name="checkDetails" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.AllFilters()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" name="AllFilters" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.Doctorname()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" name="Doctorname" class="TestCases.TC__01_HomePage"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC__01_HomePage.validHomepage()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" name="validHomepage" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.validHomepage()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" name="validHomepage" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__03_HealthandWellnessPage.click()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" name="click" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__02_SurgeryPage.validation()[pri:1, instance:TestCases.TC__02_SurgeryPage@15de0b3c]" name="validation" class="TestCases.TC__02_SurgeryPage"/>
+        <method signature="TC__02_SurgeryPage.SurgeriesList()[pri:2, instance:TestCases.TC__02_SurgeryPage@15de0b3c]" name="SurgeriesList" class="TestCases.TC__02_SurgeryPage"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC__01_HomePage.validHomepage()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" name="validHomepage" class="TestCases.TC__01_HomePage"/>
-        <method signature="TC__01_HomePage.searchDesiredoptionlocation()[pri:2, instance:TestCases.TC__01_HomePage@3857f613]" name="searchDesiredoptionlocation" class="TestCases.TC__01_HomePage"/>
-        <method signature="TC__01_HomePage.searchDesiredoptionspeciality()[pri:3, instance:TestCases.TC__01_HomePage@3857f613]" name="searchDesiredoptionspeciality" class="TestCases.TC__01_HomePage"/>
-        <method signature="TC__01_HomePage.checkDetails()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" name="checkDetails" class="TestCases.TC__01_HomePage"/>
-        <method signature="TC__01_HomePage.AllFilters()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" name="AllFilters" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.validHomepage()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" name="validHomepage" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__03_HealthandWellnessPage.click()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" name="click" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__03_HealthandWellnessPage.clickAgainWithExcelData()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" name="clickAgainWithExcelData" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__03_HealthandWellnessPage.clickOnceAgain()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" name="clickOnceAgain" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__03_HealthandWellnessPage.validate_Thankyou()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" name="validate_Thankyou" class="TestCases.TC__03_HealthandWellnessPage"/>
+        <method signature="TC__02_SurgeryPage.validation()[pri:1, instance:TestCases.TC__02_SurgeryPage@15de0b3c]" name="validation" class="TestCases.TC__02_SurgeryPage"/>
+        <method signature="TC__01_HomePage.searchDesiredoptionlocation()[pri:2, instance:TestCases.TC__01_HomePage@3b0090a4]" name="searchDesiredoptionlocation" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__02_SurgeryPage.SurgeriesList()[pri:2, instance:TestCases.TC__02_SurgeryPage@15de0b3c]" name="SurgeriesList" class="TestCases.TC__02_SurgeryPage"/>
+        <method signature="TC__01_HomePage.searchDesiredoptionspeciality()[pri:3, instance:TestCases.TC__01_HomePage@3b0090a4]" name="searchDesiredoptionspeciality" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.checkDetails()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" name="checkDetails" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.AllFilters()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" name="AllFilters" class="TestCases.TC__01_HomePage"/>
+        <method signature="TC__01_HomePage.Doctorname()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" name="Doctorname" class="TestCases.TC__01_HomePage"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-02-28T00:03:20 IST" name="ChromeTest" finished-at="2024-02-28T00:04:13 IST" duration-ms="53686">
-      <class name="TestCases.TC__01_HomePage">
-        <test-method is-config="true" signature="driversetup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" started-at="2024-02-28T00:03:21 IST" name="driversetup" finished-at="2024-02-28T00:03:38 IST" duration-ms="17257" status="PASS">
+    <test started-at="2024-02-28T16:52:12 IST" name="ChromeTest" finished-at="2024-02-28T16:57:51 IST" duration-ms="338371">
+      <class name="TestCases.TC__03_HealthandWellnessPage">
+        <test-method is-config="true" signature="driversetup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" started-at="2024-02-28T16:55:51 IST" name="driversetup" finished-at="2024-02-28T16:56:33 IST" duration-ms="41902" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,26 +54,541 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driversetup -->
-        <test-method signature="validHomepage()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" started-at="2024-02-28T00:03:38 IST" name="validHomepage" finished-at="2024-02-28T00:03:38 IST" duration-ms="67" status="PASS">
+        <test-method signature="click()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" started-at="2024-02-28T16:56:33 IST" name="click" finished-at="2024-02-28T16:56:43 IST" duration-ms="10127" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='nav-interact']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=xpath, value=//span[@class='nav-interact']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='nav-interact']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=xpath, value=//span[@class='nav-interact']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source)
+at PageObjectClass.HealthandWellnessPage.click(HealthandWellnessPage.java:53)
+at TestCases.TC__03_HealthandWellnessPage.click(TC__03_HealthandWellnessPage.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click -->
+        <test-method signature="clickAgainWithDataProvider(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" started-at="2024-02-28T16:56:44 IST" name="clickAgainWithDataProvider" data-provider="invalid_data_provider" finished-at="2024-02-28T16:57:18 IST" duration-ms="34131" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CTS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.876768948E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[krishna.chaudhari]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=id, value=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=id, value=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+at PageObjectClass.HealthandWellnessPage.ClickOnHealthwithInvalidData(HealthandWellnessPage.java:100)
+at TestCases.TC__03_HealthandWellnessPage.clickAgainWithDataProvider(TC__03_HealthandWellnessPage.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAgainWithDataProvider -->
+        <test-method signature="clickAgainWithExcelData()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" started-at="2024-02-28T16:57:18 IST" name="clickAgainWithExcelData" finished-at="2024-02-28T16:57:28 IST" duration-ms="10158" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=id, value=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=id, value=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+at PageObjectClass.HealthandWellnessPage.ClickOnHealthwithInvalidData(HealthandWellnessPage.java:61)
+at TestCases.TC__03_HealthandWellnessPage.clickAgainWithExcelData(TC__03_HealthandWellnessPage.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAgainWithExcelData -->
+        <test-method signature="clickOnceAgain()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" started-at="2024-02-28T16:57:29 IST" name="clickOnceAgain" finished-at="2024-02-28T16:57:39 IST" duration-ms="10163" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=id, value=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#name"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=id, value=name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+at PageObjectClass.HealthandWellnessPage.ClickOnHealthwithValidData(HealthandWellnessPage.java:82)
+at TestCases.TC__03_HealthandWellnessPage.clickOnceAgain(TC__03_HealthandWellnessPage.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnceAgain -->
+        <test-method signature="validate_Thankyou()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" started-at="2024-02-28T16:57:39 IST" name="validate_Thankyou" finished-at="2024-02-28T16:57:49 IST" duration-ms="10053" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='u-text--bold text-alpha'])[1]"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=xpath, value=(//div[@class='u-text--bold text-alpha'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='u-text--bold text-alpha'])[1]"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [44a3e32174d76a000fa6ed49b989533a, findElement {using=xpath, value=(//div[@class='u-text--bold text-alpha'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58781}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58781/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 44a3e32174d76a000fa6ed49b989533a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source)
+at PageObjectClass.HealthandWellnessPage.validate(HealthandWellnessPage.java:119)
+at TestCases.TC__03_HealthandWellnessPage.validate_Thankyou(TC__03_HealthandWellnessPage.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Thankyou -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:TestCases.TC__03_HealthandWellnessPage@489115ef]" started-at="2024-02-28T16:57:49 IST" name="driverClose" finished-at="2024-02-28T16:57:51 IST" duration-ms="1462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- TestCases.TC__03_HealthandWellnessPage -->
+      <class name="TestCases.TC__02_SurgeryPage">
+        <test-method is-config="true" signature="driversetup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC__02_SurgeryPage@15de0b3c]" started-at="2024-02-28T16:55:00 IST" name="driversetup" finished-at="2024-02-28T16:55:16 IST" duration-ms="15552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="validation()[pri:1, instance:TestCases.TC__02_SurgeryPage@15de0b3c]" started-at="2024-02-28T16:55:16 IST" name="validation" finished-at="2024-02-28T16:55:41 IST" duration-ms="25202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation -->
+        <test-method signature="SurgeriesList()[pri:2, instance:TestCases.TC__02_SurgeryPage@15de0b3c]" started-at="2024-02-28T16:55:42 IST" name="SurgeriesList" finished-at="2024-02-28T16:55:48 IST" duration-ms="5866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SurgeriesList -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:TestCases.TC__02_SurgeryPage@15de0b3c]" started-at="2024-02-28T16:55:48 IST" name="driverClose" finished-at="2024-02-28T16:55:51 IST" duration-ms="2336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- TestCases.TC__02_SurgeryPage -->
+      <class name="TestCases.TC__01_HomePage">
+        <test-method is-config="true" signature="driversetup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" started-at="2024-02-28T16:52:14 IST" name="driversetup" finished-at="2024-02-28T16:52:30 IST" duration-ms="16161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="validHomepage()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" started-at="2024-02-28T16:52:30 IST" name="validHomepage" finished-at="2024-02-28T16:52:31 IST" duration-ms="193" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title didn't match expected [Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title didn't match expected [Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at TestCases.TC__01_HomePage.validHomepage(TC__01_HomePage.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validHomepage -->
-        <test-method signature="searchDesiredoptionlocation()[pri:2, instance:TestCases.TC__01_HomePage@3857f613]" started-at="2024-02-28T00:03:38 IST" name="searchDesiredoptionlocation" finished-at="2024-02-28T00:03:43 IST" duration-ms="4860" status="PASS">
+        <test-method signature="searchDesiredoptionlocation()[pri:2, instance:TestCases.TC__01_HomePage@3b0090a4]" started-at="2024-02-28T16:52:31 IST" name="searchDesiredoptionlocation" finished-at="2024-02-28T16:52:54 IST" duration-ms="22451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchDesiredoptionlocation -->
-        <test-method signature="searchDesiredoptionspeciality()[pri:3, instance:TestCases.TC__01_HomePage@3857f613]" started-at="2024-02-28T00:03:44 IST" name="searchDesiredoptionspeciality" finished-at="2024-02-28T00:03:50 IST" duration-ms="6220" status="PASS">
+        <test-method signature="searchDesiredoptionspeciality()[pri:3, instance:TestCases.TC__01_HomePage@3b0090a4]" started-at="2024-02-28T16:52:54 IST" name="searchDesiredoptionspeciality" finished-at="2024-02-28T16:53:17 IST" duration-ms="22225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchDesiredoptionspeciality -->
-        <test-method signature="checkDetails()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" started-at="2024-02-28T00:03:50 IST" name="checkDetails" finished-at="2024-02-28T00:03:50 IST" depends-on-methods="TestCases.TC__01_HomePage.searchDesiredoptionspeciality" duration-ms="32" status="PASS">
+        <test-method signature="checkDetails()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" started-at="2024-02-28T16:53:17 IST" name="checkDetails" finished-at="2024-02-28T16:53:17 IST" depends-on-methods="TestCases.TC__01_HomePage.searchDesiredoptionspeciality" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDetails -->
-        <test-method signature="AllFilters()[pri:0, instance:TestCases.TC__01_HomePage@3857f613]" started-at="2024-02-28T00:03:51 IST" name="AllFilters" finished-at="2024-02-28T00:04:13 IST" depends-on-methods="TestCases.TC__01_HomePage.checkDetails" duration-ms="22256" status="PASS">
+        <test-method signature="AllFilters()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" started-at="2024-02-28T16:53:18 IST" name="AllFilters" finished-at="2024-02-28T16:53:47 IST" depends-on-methods="TestCases.TC__01_HomePage.checkDetails" duration-ms="29357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AllFilters -->
+        <test-method signature="Doctorname()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" started-at="2024-02-28T16:53:47 IST" name="Doctorname" finished-at="2024-02-28T16:54:58 IST" depends-on-methods="TestCases.TC__01_HomePage.AllFilters" duration-ms="71071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Doctorname -->
+        <test-method is-config="true" signature="driverClose()[pri:0, instance:TestCases.TC__01_HomePage@3b0090a4]" started-at="2024-02-28T16:54:59 IST" name="driverClose" finished-at="2024-02-28T16:55:00 IST" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
       </class> <!-- TestCases.TC__01_HomePage -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Suite -->

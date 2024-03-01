@@ -1,7 +1,6 @@
 package PageObjectClass;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Random;
@@ -10,9 +9,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-import TestBase.BaseClass;
-import UtilitiesAll.ExcelInputUtils;
 
 public class HomePage extends BasePage {
 
@@ -89,7 +85,7 @@ public String applyFilters() throws InterruptedException{
 			int randomIndex= new Random().nextInt(2,5);
 			JavascriptExecutor js =(JavascriptExecutor)driver;
 		    js.executeScript("arguments[0].click()",dropdownlist.get(randomIndex));
-		    Thread.sleep(3000);
+		    Thread.sleep(2000);
 		    continue;
 		    //dropdownlist.get(randomIndex).click();
 		}
@@ -99,7 +95,7 @@ public String applyFilters() throws InterruptedException{
 			int randomIndex= new Random().nextInt(5,9);
 			JavascriptExecutor js =(JavascriptExecutor)driver;
 		    js.executeScript("arguments[0].click()",dropdownlist.get(randomIndex));
-		    Thread.sleep(3000);
+		    Thread.sleep(2000);
 		    //dropdownlist.get(randomIndex).click();
 		}
 
@@ -109,15 +105,15 @@ public String applyFilters() throws InterruptedException{
 			int randomIndex= new Random().nextInt(4);
 			JavascriptExecutor js =(JavascriptExecutor)driver;
 		    js.executeScript("arguments[0].click()",radiobuttonlist.get(randomIndex));
-		    Thread.sleep(3000);
+		    Thread.sleep(2000);
 		    //	radiobuttonlist.get(randomIndex).click();
 	
 			//for Availability
-//		    Filters.get(i).click();
-//			int randomIndex1= new Random().nextInt(4,8);
-//			JavascriptExecutor js1 =(JavascriptExecutor)driver;
-//		    js1.executeScript("arguments[0].click()",radiobuttonlist.get(randomIndex1));
-//		    Thread.sleep(3000);
+		    Filters.get(i).click();
+			int randomIndex1= new Random().nextInt(4,8);
+			JavascriptExecutor js1 =(JavascriptExecutor)driver;
+		    js1.executeScript("arguments[0].click()",radiobuttonlist.get(randomIndex1));
+		    Thread.sleep(2000);
 		    //	radiobuttonlist.get(randomIndex1).click();
 			
 		}
@@ -128,7 +124,7 @@ public String applyFilters() throws InterruptedException{
 			int randomIndex= new Random().nextInt(9,12);
 			JavascriptExecutor js =(JavascriptExecutor)driver;
 		    js.executeScript("arguments[0].click()",dropdownlist.get(randomIndex));
-		    Thread.sleep(3000);
+		    Thread.sleep(2000);
 		    }
 		}
 			catch(Exception e) {

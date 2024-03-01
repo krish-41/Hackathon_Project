@@ -10,7 +10,7 @@ import UtilitiesAll.ExcelOutputUtils;
 
 public class TC__02_SurgeryPage extends BaseClass {
 
-@Test(priority=1)
+@Test(priority=1,groups = { "sanity", "master" })
 public void validation(){
 	log.info("**********TEST CASE 7 STARTED**********");
 	SurgeryPage SP=new SurgeryPage(driver);
@@ -18,7 +18,7 @@ public void validation(){
 	 log.info("************TEST CASE 7 SUCESSESFULLY EXECUTED***********");
 }	
 	
-@Test(priority=2)
+@Test(priority=2,groups = { "sanity", "master" })
 public void SurgeriesList()  {
 	log.info("**********TEST CASE 8 STARTED**********");
 	SurgeryPage SP=new SurgeryPage(driver);

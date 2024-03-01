@@ -10,7 +10,7 @@ import UtilitiesAll.ExcelInputUtils;
 
 public class TC__03_HealthandWellnessPage extends BaseClass{
 
-@Test
+@Test(groups = { "regression","sanity", "master" })
 public void click() {
 	HealthandWellnessPage HWP=new HealthandWellnessPage(driver);
 	boolean Actual=HWP.click();
@@ -18,7 +18,7 @@ public void click() {
 	log.info("************TEST CASE 9 SUCESSESFULLY EXECUTED***********");
 }
 	
-@Test
+@Test(groups = { "regression", "master" })
 public void clickAgainWithExcelData() throws Exception {
 		
 		HealthandWellnessPage HWP=new HealthandWellnessPage(driver);
@@ -37,7 +37,7 @@ public void clickAgainWithDataProvider(String name, String comp, String num, Str
 	log.info("************TEST CASE 10 SUCESSESFULLY EXECUTED***********");
 }
 
-@Test
+@Test(groups = { "regression", "master" })
 public void clickOnceAgain() throws Exception {
 	
 	HealthandWellnessPage HWP=new HealthandWellnessPage(driver);
@@ -47,7 +47,7 @@ public void clickOnceAgain() throws Exception {
 	log.info("************TEST CASE 12 SUCESSESFULLY EXECUTED***********");
 }
 
-@Test
+@Test(groups = { "regression", "master" })
 public void validate_Thankyou() {
 	HealthandWellnessPage HWP=new HealthandWellnessPage(driver);
 	Assert.assertEquals(true, HWP.validate());

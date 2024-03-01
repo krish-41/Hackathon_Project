@@ -5,25 +5,27 @@
     <listener class-name="UtilitiesAll.Extent_Reports"/>
   </listeners>
   <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="sanity"/>
-        <include name="regression"/>
-        <include name="master"/>
-      </run>
-    </groups>
     <classes>
       <class name="TestCases.TC__01_HomePage">
         <methods>
-          <include name="AllFilters"/>
           <include name="driversetup"/>
-          <include name="checkDetails"/>
           <include name="validHomepage"/>
-          <include name="searchDesiredoptionspeciality"/>
-          <include name="searchDesiredoptionlocation"/>
+          <include name="driverClose"/>
         </methods>
       </class> <!-- TestCases.TC__01_HomePage -->
+      <class name="TestCases.TC__03_HealthandWellnessPage">
+        <methods>
+          <include name="clickAgainWithExcelData"/>
+          <include name="driversetup"/>
+          <include name="clickAgainWithDataProvider" invocation-numbers="0"/>
+          <include name="validate_Thankyou"/>
+          <include name="clickOnceAgain"/>
+          <include name="click"/>
+          <include name="driverClose"/>
+        </methods>
+      </class> <!-- TestCases.TC__03_HealthandWellnessPage -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

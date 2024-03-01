@@ -8,6 +8,8 @@ import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
+
+import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -36,18 +38,7 @@ public static WebDriver driversetup(String os,String br) throws IOException {
 	FileReader filepath=new FileReader(".//src//test//resources//ConfigFile.properties");
 	prop=new Properties();
 	prop.load(filepath);
-	log.info("********** Launching WebDriver***********");
-////choose your browser	
-//	if(br.equalsIgnoreCase("chrome")) {
-//		driver = new ChromeDriver();
-//	}
-//	else if(br.equalsIgnoreCase("edge")) {
-//		driver = new EdgeDriver();
-//	}
-//	else {
-//		System.out.println("Enter valid browser");
-//	}
-	
+	log.info("********** Launching WebDriver***********");	
 	if(prop.getProperty("execution_env").equalsIgnoreCase("remote")) {
 
 				DesiredCapabilities capabalities = new DesiredCapabilities();
@@ -149,6 +140,14 @@ public String extentreportscreenshot(String tname) throws IOException {
 	sourceFile.renameTo(targetFile);	
 	return targetFilePath;
 
+}
+public void captureScreen(String tname) throws IOException{
+	
+	TakesScreenshot ts=(TakesScreenshot)driver;
+	File src=ts.getScreenshotAs(OutputType.FILE);
+	File trg=new File(System.getProperty("user.dir")+"\\allScreenshot\\Screenshots\\"+tname+".png");
+	FileUtils.copyFile(src, trg);
+	
 }
 @AfterClass	
 public void driverClose() {

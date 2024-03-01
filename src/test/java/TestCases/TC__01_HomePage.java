@@ -51,12 +51,12 @@ public void searchDesiredoptionspeciality() throws Exception {
 public void AllFilters() throws InterruptedException{
 	HomePage HP =new HomePage(driver);
 	log.info("**********TEST CASE 5  STARTED**********");
-	String Act_filter=HP.applyFilters();
+	HP.applyFilters();
 	//Assert.assertEquals(Act_filter,"Relevance");
 	log.info("************TEST CASE 5 SUCESSESFULLY EXECUTED***********");
 	}
 
-@Test(dependsOnMethods= {"AllFilters"})
+@Test(dependsOnMethods= {"AllFilters"},groups = { "regression", "master" })
 public void Doctorname(){
 	HomePage HP =new HomePage(driver);
 	log.info("**********TEST CASE 6  STARTED**********");

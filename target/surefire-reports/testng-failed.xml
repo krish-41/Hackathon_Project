@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="UtilitiesAll.Extent_Reports"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)" verbose="0">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.TC__01_HomePage">
+        <methods>
+          <include name="driversetup"/>
+          <include name="AllFilters"/>
+          <include name="checkDetails"/>
+          <include name="Doctorname"/>
+          <include name="validHomepage"/>
+          <include name="driverClose"/>
+          <include name="searchDesiredoptionlocation"/>
+          <include name="searchDesiredoptionspeciality"/>
+        </methods>
+      </class> <!-- TestCases.TC__01_HomePage -->
+      <class name="TestCases.TC__03_HealthandWellnessPage">
+        <methods>
+          <include name="driversetup"/>
+          <include name="validate_Thankyou"/>
+          <include name="clickOnceAgain"/>
+          <include name="driverClose"/>
+        </methods>
+      </class> <!-- TestCases.TC__03_HealthandWellnessPage -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

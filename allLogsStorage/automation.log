@@ -1,9 +1,23 @@
-00:03:38.356 [main] INFO  org.testng.annotations.Test - ************TEST CASE 1 SUCESSESFULLY EXECUTED***********
-00:03:39.048 [main] INFO  org.testng.annotations.Test - **********TEST CASE 2 STARTED**********
-00:03:43.849 [main] INFO  org.testng.annotations.Test - ************TEST CASE 2 SUCESSESFULLY EXECUTED***********
-00:03:44.311 [main] INFO  org.testng.annotations.Test - **********TEST CASE 3 STARTED**********
-00:03:50.526 [main] INFO  org.testng.annotations.Test - ************TEST CASE 3 SUCESSESFULLY EXECUTED***********
-00:03:50.913 [main] INFO  org.testng.annotations.Test - **********TEST CASE 4 STARTED**********
-00:03:50.943 [main] INFO  org.testng.annotations.Test - ************TEST CASE 4 SUCESSESFULLY EXECUTED***********
-00:03:51.305 [main] INFO  org.testng.annotations.Test - **********TEST CASE 5  STARTED**********
-00:04:13.558 [main] INFO  org.testng.annotations.Test - ************TEST CASE 5 SUCESSESFULLY EXECUTED***********
+16:55:16.109 [main] INFO  org.testng.annotations.Test - **********TEST CASE 7 STARTED**********
+16:55:41.299 [main] INFO  org.testng.annotations.Test - ************TEST CASE 7 SUCESSESFULLY EXECUTED***********
+16:55:42.239 [main] INFO  org.testng.annotations.Test - **********TEST CASE 8 STARTED**********
+16:55:48.101 [main] INFO  org.testng.annotations.Test - ************TEST CASE 8 SUCESSESFULLY EXECUTED***********
+16:55:51.122 [main] INFO  org.testng.annotations.Test - ********** Launching WebDriver***********
+16:56:01.190 [main] INFO  org.testng.annotations.Test - Chrome browser opened successfully
+16:56:01.500 [main] INFO  org.testng.annotations.Test - ********** Launching URL***********
+16:59:20.373 [main] INFO  TestBase.CucumberBaseClass - Browser Launch for cucumber test...
+16:59:22.478 [main] INFO  TestBase.CucumberBaseClass - **********Cucumber TEST CASE 1 STARTED**********
+16:59:22.516 [main] INFO  TestBase.CucumberBaseClass - ************Cucumber TEST CASE 1 SUCESSESFULLY EXECUTED***********
+16:59:23.233 [main] INFO  TestBase.CucumberBaseClass - **********Cucumber TEST CASE 2 STARTED**********
+16:59:29.409 [main] INFO  TestBase.CucumberBaseClass - ************Cucumber TEST CASE 2 SUCESSESFULLY EXECUTED***********
+16:59:29.913 [main] INFO  TestBase.CucumberBaseClass - **********Cucumber TEST CASE 3 STARTED**********
+16:59:39.843 [main] INFO  TestBase.CucumberBaseClass - ************Cucumber TEST CASE 3 SUCESSESFULLY EXECUTED***********
+16:59:40.257 [main] INFO  TestBase.CucumberBaseClass - **********Cucumber TEST CASE 5  STARTED**********
+17:02:26.762 [main] INFO  TestBase.CucumberBaseClass - ************Cucumber TEST CASE 5 SUCESSESFULLY EXECUTED***********
+17:02:27.202 [main] INFO  TestBase.CucumberBaseClass - **********Cucumber TEST CASE 6  STARTED**********
+17:02:27.515 [main] INFO  TestBase.CucumberBaseClass - **********Cucumber TEST CASE 6  STARTED**********
+17:02:52.375 [main] INFO  TestBase.CucumberBaseClass - ************Cucumber TEST CASE 6 SUCESSESFULLY EXECUTED***********
+17:02:52.858 [main] INFO  TestBase.CucumberBaseClass - **********Cucumber TEST CASE 7 STARTED**********
+17:02:58.882 [main] INFO  TestBase.CucumberBaseClass - ************Cucumber TEST CASE 7 SUCESSESFULLY EXECUTED***********
+17:03:28.251 [main] INFO  TestBase.CucumberBaseClass - ************Cucumber TEST CASE 8 SUCESSESFULLY EXECUTED***********
+17:04:28.720 [main] INFO  TestBase.CucumberBaseClass - Browser closed for Cucumber test...
